@@ -9,8 +9,7 @@ def line(katz_deli)
     katz_deli.each do |name, counter|
       counter = 0
       counter += 1
-      temporary_array.push("#{counter}. #{name}")
-      counter += 1
+      temporary_array.push("#{counter}, #{name}")
     end
     puts "The line is currently: #{temporary_array.join(" ")}"
   end
