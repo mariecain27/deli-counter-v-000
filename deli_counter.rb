@@ -1,6 +1,4 @@
 # Write your code here.
-katz_deli = []
-
 def line(katz_deli)
   temporary_array = []
   if katz_deli.empty?
