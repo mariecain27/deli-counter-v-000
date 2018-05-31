@@ -6,8 +6,10 @@ def line(katz_deli)
   if katz_deli.empty?
     puts "The line is currently empty."
   else
-    katz_deli.each do |name, index|
-      temporary_array.push("#{index}. #{name}")
+    counter = 0
+    katz_deli.each do |name, counter|
+      counter += 1
+      temporary_array.push("#{counter}. #{name}")
     end
     puts "The line is currently: #{temporary_array.join(" ")}"
   end
