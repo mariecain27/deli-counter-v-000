@@ -11,7 +11,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  
-  
-  
+  #puts the person's name along with their position in line. People like to count from 1, not from 0 ("zero") like computers.
 end
+
+def now_serving
