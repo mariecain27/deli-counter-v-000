@@ -5,8 +5,11 @@ def line(katz_deli)
   if katz_deli.empty?
     puts "The line is currently empty."
   else
-    # puts "The line is currently: 1.Ada 2.Grace 3.Kent"
-    false
+    katz_deli.each do |name, index|
+      line_array.push("#{index}. #{name}")
+    end
+    puts "The line is currently: #{line_array.join(" ")}"
+  end
   end
 end
 
