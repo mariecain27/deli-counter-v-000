@@ -2,11 +2,12 @@
 katz_deli = []
 
 def line(katz_deli)
+  temporary_array = []
   if katz_deli.empty?
     puts "The line is currently empty."
   else
     katz_deli.each do |name, index|
-      line_array.push("#{index}. #{name}")
+      temporary_array.push("#{index}. #{name}")
     end
     puts "The line is currently: #{line_array.join(" ")}"
   end
