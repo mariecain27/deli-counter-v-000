@@ -8,7 +8,7 @@ def line(katz_deli)
   else
     katz_deli.each do |name, counter|
       counter = 0
-      counter ++ 
+      counter += 1 
       temporary_array.push("#{counter}. #{name}")
     end
     puts "The line is currently: #{temporary_array.join(" ")}"
