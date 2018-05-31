@@ -14,8 +14,8 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  #puts the person's name along with their position in line. People like to count from 1, not from 0 ("zero") like computers.
-  # puts "Welcome, #{name}. You are number #{number} in line."
+#   katz_deli.push(name)
+  puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
 
 def now_serving(katz_deli)
